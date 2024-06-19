@@ -23,7 +23,7 @@ const someDifferences = [
 
 export default function Difference() {
     return (
-        <div className="flex lg:px-32 justify-between lg:flex-row flex-col lg:items-start items-center">
+        <div className="flex lg:px-32 justify-between lg:flex-row flex-col lg:items-start items-center lg:pt-0 pt-24">
             <div className="flex flex-col lg:w-1/2 flex-shrink-0 lg:px-0 px-8">
                 <h2 className="text-3xl lg:text-left text-center font-vietnam text-m_dark_blue lg:w-96 font-bold lg:leading-10">
                     What’s different about Manage?
@@ -58,11 +58,11 @@ export default function Difference() {
                                     <p className="font-vietnam py-2 text-center w-16 flex-shrink-0 h-fit rounded-full bg-m_birght_red text-white text-sm font-bold min-w-0">
                                         0{index + 1}
                                     </p>
-                                    <span className="font-public text-m_dark_blue font-bold text-xs">
+                                    <span className="font-vietnam text-m_dark_blue font-bold text-xs">
                                         {item.title}
                                     </span>
                                 </h3>
-                                <p className="text-xs leading-6 font-public text-m_dark_grayish_blue pb-6">
+                                <p className="text-xs leading-6 font-vietnam text-m_dark_grayish_blue pb-6">
                                     {item.description}
                                 </p>
                             </div>
